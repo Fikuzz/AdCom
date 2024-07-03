@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdCom", "AdCom\AdCom.csproj", "{B8896CD7-C64A-4C92-A5E8-D2C30CFEF34D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8896CD7-C64A-4C92-A5E8-D2C30CFEF34D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8896CD7-C64A-4C92-A5E8-D2C30CFEF34D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8896CD7-C64A-4C92-A5E8-D2C30CFEF34D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8896CD7-C64A-4C92-A5E8-D2C30CFEF34D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98C76D1D-F49A-40E7-9CA7-BB39F12ADB97}
+	EndGlobalSection
+EndGlobal

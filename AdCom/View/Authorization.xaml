@@ -1,0 +1,33 @@
+﻿<Window x:Class="AdCom.View.Authorization"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AdCom.View"
+        mc:Ignorable="d"
+        Title="Authorization" 
+        Height="550" Width="925" 
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Background="{StaticResource MainBackGround}">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="390*"/>
+            <ColumnDefinition Width="500*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Image Source="{StaticResource AuthorizationBG}" Grid.Column="0" Grid.RowSpan="3"/>
+
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <Label Content="{StaticResource Greeting}" Style="{DynamicResource Heading}" Height="48" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBox x:Name="tbLogin" Tag="Логин" Margin="0,10"/>
+            <TextBox x:Name="tbPassword" Tag="Пароль" Margin="0,10"/>
+            <Button Width="250" Height="45" Content="ВОЙТИ В СИСТЕМУ" Click="BT_SignIn" Margin="0,20,0,0"/>
+        </StackPanel>
+    </Grid>
+</Window>
